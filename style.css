@@ -2,82 +2,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Shadows Into Light', cursive;
 }
-body{
-    background-color: bisque;
-}
-.countdown div::before{
-    display: flex;
-    flex-direction: column;
-
-}
-.countdown{
-    background-color:antiquewhite ;
-    box-shadow: 2px 2px 0px black;
+.search{
     border: 1px black solid;
-    border-radius: 3px;
-    height: auto;
-    width: 70%;
-    margin: auto;
+    background-color: white;
+    border-radius: 22px;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
-    padding: 0.5rem;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 2rem;
-}
-.year, h1{
-    margin: auto;
-    width: auto;
-    text-align: center;
-    font-size: 70px;
-}
-
-.countdown #day::before{
-    content: "days";
-}
-
-.countdown, #hour::before{
-    content: "hours";
-}
-
-.countdown #minute::before{
-    content: "Minutes";
-}
-
-.countdown #second::before{
-    content: "Seconds";
+    justify-content: space-between;
+    width: 100%;
     
 }
-
-
-
-footer{
-    border: 1px solid black;
-    box-shadow: 3px 3px 0px black;
-    text-align: center;
-    font-size:1.2rem;
-    animation-name: deneme;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    width: 13rem;
+header{
+    display: flex;
+    border: 1px black solid;
+    background-color: #1001a4;
+    justify-content: space-evenly;
+    align-items: center;
     margin: auto;
-    margin-top: 20px;
+    height: 5rem;
+    
 }
-@keyframes deneme {
-    /* from {background-color: red;}
-    to {background-color: yellow;} */
-    0%   {background-color:bisque;}
-    10%  {background-color:#357173;}
-    20%  {background-color:#6eb9bd;}
-    30%  {background-color:#f6d47f;}
-    40% {background-color:#4279a6; }
-    50% {background-color:#60c2dd; }
-    60% {background-color:#78a579; }
-    70% {background-color:antiquewhite; }
-    80% {background-color:#78a579; }
-    90% {background-color:#4279a6; }
-    100% {background-color:#6eb9bd; } 
-  }
+.navright{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+.navmid{
+    margin: 0;
+    width: 50%;
+    display: flex;
+    background-color: 1001a4;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+
+}
+.navleft{
+    margin: auto;
+    color: white;
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    height: 3rem;
+    align-items: center;
+
+}
+.promotions{
+    text-align:right;
+    justify-content: space-between;
+    padding-right: 40px;
+    align-items: center;
+    height: 2rem;
+    background-color: bisque;
+}
+.discount2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+.discount1{
+     width: 98%;
+     height: 22rem;
+     background-color: blue;
+    
+     margin: auto;
+}
+
+.discount3{
+     width: 20rem;
+     height: 10rem;
+     background-color: blue;
+     
+     display: flex;
+     margin: 5px;
+    
+
+}
+input{
+    border: 0px;
+    margin-top: 6px;
+}
+footer{
+    margin: auto;
+    width: 20%;
+}
