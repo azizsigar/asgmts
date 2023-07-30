@@ -1,76 +1,102 @@
 *{
+    text-align: center;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;
+  
 }
-.header{
-    text-align: right;
-    margin-left: 50px;
-    
+body{
+    background-color: cornsilk;
+    margin-top: 40px;
 }
-.maincontent{
+.calculator{
+    background-color: bisque;
+    height: auto;
+    width: 15rem;
+    box-shadow: 2px 2px 0px black;
+    margin: auto;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
     align-items: center;
-}
-.details{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    width: 70%;
-    padding-left: 40px;    
-}
-.minilogo{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 10px;
-    margin-right: 5px;
-}
-#img2{
-    height:400px;
-    width: 100%;
-    padding: 10px;
-}
-
-.suggestions{
-    padding-right: 10px;
-}
-.reserve{
-    height: 100%;
-    width: 30%;
-    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    line-height: 40px;
+}
+.screen{
+    width: 13rem;
+    height: 100px;
+    margin: 1rem;
+    
+    background-color: blanchedalmond;
+    box-shadow: 2px 2px 0px black;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 3px;
+    
+    
+}
+.container{
+    border: 1px solid black;
+    background-color: aqua;
+    width: 13rem;
+    margin: 10px;
     padding: 10px;
-    margin-left: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3px ;
+    box-shadow: 2px 2px 0px black;
+    background-color: antiquewhite;
+    text-align: center;
 }
-
-#img1{
+button{
+    width: 40px;
+    background-color: whitesmoke;
+    height: 30px;
+    padding: 0px;
+    margin: 5px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;    
+    box-shadow: 2px 2px 0px black;
+    border-radius: 3px ;
     
-    
-    padding-right:10px ;
 
 }
-.footer{
-    
-    padding: 10px;
+#clear{
+    width: auto;
+    padding: auto;
+    border-radius: 3px ;
+
 }
 
-.link3{
-    padding-left: 40px;
-    
+footer{
+    border: 1px solid black;
+    box-shadow: 3px 3px 0px black;
+    text-align: center;
+    font-size:16px;
+    animation-name: deneme;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 13rem;
+    margin: auto;
+    margin-top: 20px;
 }
-a{
-    color: blue;
-}
-    
-
-
-
-img{
-    width: 10rem;
-    height: 10rem;
-}
+@keyframes deneme {
+    /* from {background-color: red;}
+    to {background-color: yellow;} */
+    0%   {background-color:bisque;}
+    10%  {background-color:#357173;}
+    20%  {background-color:#6eb9bd;}
+    30%  {background-color:#f6d47f;}
+    40% {background-color:#4279a6; }
+    50% {background-color:#60c2dd; }
+    60% {background-color:#78a579; }
+    70% {background-color:antiquewhite; }
+    80% {background-color:#78a579; }
+    90% {background-color:#4279a6; }
+    100% {background-color:#6eb9bd; } 
+  }
